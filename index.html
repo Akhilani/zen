@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Angular JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body ng-app="zenApp" ng-cloak ng-controller="zenCtrl">
+
+<div class="container-fluid">
+    <h1>Hello World!</h1>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="row">
+        <div class="col-sm-12" style="background-color:lavender;">Bulk Operations
+            <div class="row">
+                <div class="col-sm-3" style="background-color:lightcyan;">
+                    <div class="form-inline form-group col-sm-12 mt-2">
+                        <label for="selectRoom">Select room: </label>
+                        <select id="selectRoom" class="form-control form-control-sm">
+                            <option value="1">Single Room</option>
+                            <option value="2">Double Room</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-9" style="background-color:lightgray;">.col-sm-6</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/zen.js"></script>
+</body>
+</html>
